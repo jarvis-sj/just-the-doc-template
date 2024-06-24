@@ -1,18 +1,16 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: First TMS Docs
+description: First TMS User Manual
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# url: https://just-the-docs.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+#   # Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 
 
 nav:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: user manural
-    url: /pages/user manural
+  - title: home
+    url: /index
+  # - title: user manual
+  #   url: /pages/user manual

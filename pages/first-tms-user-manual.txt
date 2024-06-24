@@ -1,22 +1,22 @@
 ---
 layout: default
-title: User Manural
-nav_order: 3
+title: User Manual
+nav_order: 2
 ---
 
 <head>
-  <link rel="stylesheet" href="/../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 # **First TMS 操作手冊**
 
 <div>
-  <img src="../assets/images/First TMS Cover.png" alt="Example Image" style="display: block; max-width: 100%;">
+  <img src="../assets/images/first TMS cover.png" style="display: block; max-width: 100%;">
 </div>
 
 
 * **版本 :** 1.0
-* **公司名稱 :** 宏泰天一 Supply First
+* **公司名稱 :** Supply First Technologies Limited 宏泰天一科技有限公司
 
 # **目錄**
 1. [簡介](#簡介)
@@ -64,6 +64,6 @@ Wallace
 
 
 <div class="gray-border">
-  <img src="../assets/images/login page.png" alt="Example Image" style="display: block; max-width: 100%;">
+  <img src="../assets/images/login page.png" style="display: block; max-width: 100%;">
 </div>
 
