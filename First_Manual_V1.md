@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: V1.0
 nav_order: 2
 css: style.css
 ---
@@ -23,13 +23,11 @@ css: style.css
 1. [簡介](#簡介)
 2. [安裝指南](#安裝指南)
 3. [主要應用模塊](#主要應用模塊)
-   1. [First TMS 使用步驟](#first-tms-使用步驟)
-   2. [First TMS 主頁操作步驟](#first-tms-主頁操作步驟)
-   3. [First TMS 新增配送單操作步驟](#first-tms-新增配送單操作步驟)
-   4. [First TMS 配送單操作步驟](#first-tms-配送單操作步驟)
-   5. [First TMS 訂單訊息操作步驟](#first-tms-訂單訊息操作步驟)
-   6. [First TMS 訂單資訊操作步驟](#first-tms-訂單資訊操作步驟)
-   7.  [First TMS 設定頁面操作步驟](#first-tms-設定頁面操作步驟)
+   1. [登入操作步驟](#登入操作步驟)
+   2. [新增配送單](#新增配送單)
+   3. [配送單訊息操作](#配送單訊息操作)
+   4. [訂單資訊操作](#訂單資訊操作)
+   5. [設定頁面操作](#設定頁面操作)
 
 --- 
 
@@ -116,18 +114,15 @@ Wallace
 2. 更新完成後，系統會顯示更新結果。
    - 若更新成功，會顯示「資料已更新！」提示。
 
-   ![資料更新成功](assets/images/home_page/refresh.png)
+     ![資料更新成功](assets/images/home_page/refresh.png)
 
    - 若更新失敗，會顯示「資料更新失敗！」提示。
 
-   ![資料更新失敗](assets/images/home_page/refresh-1.png)
+     ![資料更新失敗](assets/images/home_page/refresh-1.png)
 
 ## 步驟 3：查看運輸單
 1. 主頁面會顯示您的運輸單列表，包括每張運輸單的詳細信息和狀態。
-   - 例如:
-     1. 顯示運輸單號 `XCSHKLFSA240240400299` 
-     2. 車號`XC9999`
-     3. 時間段 `9AM-12PM`
+   - 例如，顯示運輸單號 `XCSHKLFSA240240400299` 和時間段 `9AM-12PM`。
 
    ![運輸單列表](assets/images/home_page/default.png)
 
@@ -140,7 +135,7 @@ Wallace
 1. 若有多張運輸單，您可以左右滑動查看更多運輸單。
    - 如圖所示，左滑可查看下一張運輸單。
 
-   ![左滑查看更多](assets/images/home_page/tips.png)
+     ![左滑查看更多](assets/images/home_page/tips.png)
 
 ## 步驟 6：處理提示信息
 1. 如果查無運輸單，系統會提示「查無運輸單」。請按提示重新登入。
@@ -151,7 +146,8 @@ Wallace
 - **定時更新**：請定期更新您的運輸單信息，以確保資料的準確性。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保運輸過程順利。
 
-***
+這些步驟將幫助您順利使用 First TMS 主頁功能。如有任何問題，請隨時聯繫我們的客服團隊。
+
 
 # First TMS 新增配送單操作步驟
 
@@ -211,8 +207,6 @@ Wallace
 
 這些步驟將幫助您順利新增配送單並進行配送操作。如有任何問題，請隨時聯繫我們的客服團隊。
 
-***
-
 # First TMS 配送單操作步驟
 
 ## 步驟 1：進入配送單頁面
@@ -235,11 +229,11 @@ Wallace
    - 您可以查看「未完成」和「進行中」的配送單。
    - 例如，顯示未完成的配送單：
 
-   ![未完成的配送單](assets/images/order_page/undone.png)
+     ![未完成的配送單](assets/images/order_page/undone.png)
 
    - 例如，顯示進行中的配送單：
 
-   ![進行中的配送單](assets/images/order_page/in_progress.png)
+     ![進行中的配送單](assets/images/order_page/in_progress.png)
 
 2. 若尚無配送單記錄，系統會顯示「尚無記錄」。
 
@@ -256,7 +250,6 @@ Wallace
 
 這些步驟將幫助您順利使用 First TMS 配送單功能。如有任何問題，請隨時聯繫我們的客服團隊。
 
-***
 
 # First TMS 訂單訊息操作步驟
 
@@ -292,11 +285,11 @@ Wallace
 
    - 選擇相簿上傳：
 
-   ![相簿上傳](assets/images/info_page/upload_image_albums.png)
+     ![相簿上傳](assets/images/info_page/upload_image_albums.png)
 
    - 選擇相機上傳：
 
-   ![相機上傳](assets/images/info_page/upload_image_camera.png)
+     ![相機上傳](assets/images/info_page/upload_image_camera.png)
 
 2. 上傳成功後，圖片將顯示在訂單資訊下方。
 
@@ -340,7 +333,7 @@ Wallace
 
    - 如選擇「其他原因」，請輸入詳細原因。
 
-   ![輸入其他原因](assets/images/info_page/msg_follow_up_other.png)
+     ![輸入其他原因](assets/images/info_page/msg_follow_up_other.png)
 
 3. 跟進完成後，系統會顯示「跟進訂單」訊息。
 
@@ -359,7 +352,6 @@ Wallace
 
 這些步驟將幫助您順利使用 First TMS 訂單訊息功能。如有任何問題，請隨時聯繫我們的客服團隊。
 
-***
 
 # First TMS 訂單資訊操作步驟
 
@@ -422,8 +414,6 @@ Wallace
 
 這些步驟將幫助您順利使用 First TMS 訂單資訊功能。如有任何問題，請隨時聯繫我們的客服團隊
 
-***
-
 # First TMS 設定頁面操作步驟
 
 ## 步驟 1：進入設定頁面
@@ -465,5 +455,3 @@ Wallace
 - **語言設定**：切換語言後，應用程式的所有界面將會切換為所選語言，請選擇您熟悉的語言以便操作。
 
 這些步驟將幫助您順利使用 First TMS 設定頁面功能。如有任何問題，請隨時聯繫我們的客服團隊。
-
-***
