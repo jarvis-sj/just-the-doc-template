@@ -389,7 +389,7 @@ css: style.css
 
 2. 若尚無訂單記錄，系統會顯示「尚無記錄」。
 
-   ![尚無記錄](assets/images/order_history/no_order.png.png)
+   ![尚無記錄](assets/images/order_history/no_order.png)
 
 ## 步驟 5：上傳訂單資訊
 1. 點擊「上傳訂單資訊」按鈕，可以將訂單相關的圖片或文件上傳至系統。
