@@ -12,7 +12,7 @@ css: style.css
 # **First TMS 操作手冊**
 
 <div>
-  <img src="assets/images//first_TMS_cover.png" style="display: block; max-width: 100%;">
+  <img src="assets/images/first_TMS_cover.png" style="display: block; max-width: 100%;">
 </div>
 
 
@@ -54,8 +54,8 @@ css: style.css
 <!-- 
 | **Platform**    | **QR Code**           |
 |-------------|--------------------|
-| iOS         | ![iOS QR](../assets/images/qr_code_example.png) |
-| Android     | ![Android QR](../assets/images/qr_code_example.png) | -->
+| iOS         | ![iOS QR](..assets/images/qr_code_example.png) |
+| Android     | ![Android QR](..assets/images/qr_code_example.png) | -->
 
 <table>
   <tr>
@@ -65,13 +65,13 @@ css: style.css
   <tr>
     <td style="background-color: #FFEBEE;">iOS</td>
     <td style="background-color: #FFEBEE;">
-      <img src="../assets/images/qr_code_example.png" alt="iOS QR Code" width="200" height="200">
+      <img src="assets/images/qr_code_example.png" alt="iOS QR Code" width="200" height="200">
     </td>
   </tr>
   <tr>
     <td style="background-color: #E3F2FD;">Android</td>
     <td style="background-color: #E3F2FD;">
-      <img src="../assets/images//qr_code_example.png" alt="Android QR Code" width="200" height="200">
+      <img src="assets/images//qr_code_example.png" alt="Android QR Code" width="200" height="200">
     </td>
   </tr>
 </table>
@@ -89,7 +89,7 @@ css: style.css
 1. 您將看到如下圖所示的登入頁面：
 
 <div class="gray-border">
-  <img src="/assets/images//login_page.png" style="display: block; max-width: 100%;">
+  <img src="assets/images/login_page.png" style="display: block; max-width: 100%;">
 </div>
 
 ## 步驟 3：輸入使用者 ID 和密碼
@@ -173,46 +173,46 @@ css: style.css
    - 您可以手動輸入單號或點擊相機圖標掃描條碼。
    - 例如，輸入單號 `P240401417`。
 
-   ![輸入配送單號](/assets/images/add_order/filled.png)
+   ![輸入配送單號](assets/images/add_order/filled.png)
 
 ## 步驟 3：查詢配送單
 1. 點擊「查詢」按鈕，系統將開始查詢該配送單號的詳細信息。
 
-   ![查詢配送單](/assets/images/add_order/filled.png)
+   ![查詢配送單](assets/images/add_order/filled.png)
 
 ## 步驟 4：查看掃描記錄
 1. 查詢成功後，系統將顯示該配送單號的詳細信息和掃描記錄。
    - 掃描記錄包括已掃描和待掃描的數量。
    - 例如，已掃描1件，待掃描19件。
 
-   ![掃描記錄](/assets/images/add_order/added1.png)
+   ![掃描記錄](assets/images/add_order/added1.png)
 
 ## 步驟 5：確認配送單信息
 1. 驗證配送單詳細信息，包括地址和聯絡人信息。
    - 確認所有信息無誤後，點擊「開始派送」按鈕。
 
-   ![開始派送](/assets/images/add_order/added2.png)
+   ![開始派送](assets/images/add_order/added2.png)
 
 ## 步驟 6：處理提示信息
 1. 如果存在未匹配的訂單，系統會彈出提示信息，請確認是否繼續派送。
    - 點擊「確定」繼續派送或「取消」返回。
 
-   ![未匹配訂單提示](/assets/images/add_order/msg1.png)
+   ![未匹配訂單提示](assets/images/add_order/msg1.png)
 
 2. 如果所有訂單已匹配成功，系統會提示「訂單已全數匹配成功！」。
    - 點擊「確定」完成操作。
 
-   ![匹配成功提示](/assets/images/add_order/msg2.png)
+   ![匹配成功提示](assets/images/add_order/msg2.png)
 
 3. 如果查無此張配送單，系統會提示「查無此張配送單。」。
    - 點擊「確定」關閉提示。
 
-   ![查無配送單提示](/assets/images/add_order/msg3.png)
+   ![查無配送單提示](assets/images/add_order/msg3.png)
 
 4. 如果配送單已存在，系統會提示「重複新增，配送單已存在！」。
    - 點擊「確定」關閉提示。
 
-   ![配送單已存在提示](/assets/images/add_order/msg4.png)
+   ![配送單已存在提示](assets/images/add_order/msg4.png)
 
 ## 注意事項
 - **確認輸入正確**：請確保輸入的配送單號無誤。
