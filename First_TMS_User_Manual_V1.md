@@ -12,37 +12,50 @@ css: style.css
 # **First TMS 操作手冊**
 
 <div>
-  <img src="assets/images//first_TMS_cover.png" style="display: block; max-width: 100%;">
+  <img src="assets/images/first_TMS_cover.png" style="display: block; max-width: 100%;">
 </div>
 
 
 * **版本 :** 1.0
 * **公司名稱 :** Supply First Technologies Limited 宏泰天一科技有限公司
 
+***
+
 # **目錄**
 1. [簡介](#簡介)
 2. [安裝指南](#安裝指南)
 3. [主要應用模塊](#主要應用模塊)
-   1. [登入操作步驟](#登入操作步驟)
-   2. [新增配送單](#新增配送單)
-   3. [配送單訊息操作](#配送單訊息操作)
-   4. [訂單資訊操作](#訂單資訊操作)
-   5. [設定頁面操作](#設定頁面操作)
+   1. [First TMS 使用步驟](#first-tms-使用步驟)
+   2. [First TMS 主頁操作步驟](#first-tms-主頁操作步驟)
+   3. [First TMS 新增配送單操作步驟](#first-tms-新增配送單操作步驟)
+   4. [First TMS 配送單操作步驟](#first-tms-配送單操作步驟)
+   5. [First TMS 訂單訊息操作步驟](#first-tms-訂單訊息操作步驟)
+   6. [First TMS 訂單資訊操作步驟](#first-tms-訂單資訊操作步驟)
+   7.  [First TMS 設定頁面操作步驟](#first-tms-設定頁面操作步驟)
 
---- 
+***
 
 ## **簡介**
 
-Wallace
+歡迎使用 First TMS 物流管理系統。本手冊旨在幫助您快速了解和掌握 First TMS 的各項功能及操作步驟，從而提高您的物流管理效率。First TMS 提供了一個直觀且高效的平台，讓您可以輕鬆管理配送單、跟蹤訂單狀態、設定個人偏好等。
 
----
+本手冊涵蓋以下主要模塊：
+- 登入操作步驟
+- 新增配送單
+- 配送單訊息操作
+- 訂單紀錄操作
+- 設定頁面操作
+
+我們將詳細介紹每個模塊的使用方法，並提供相應的圖片說明，讓您可以直觀地理解和應用各項操作。
+
+***
 
 ## **安裝指南**
 <!-- 
 | **Platform**    | **QR Code**           |
 |-------------|--------------------|
-| iOS         | ![iOS QR](../assets/images/qr_code_example.png) |
-| Android     | ![Android QR](../assets/images/qr_code_example.png) | -->
+| iOS         | ![iOS QR](..assets/images/qr_code_example.png) |
+| Android     | ![Android QR](..assets/images/qr_code_example.png) | -->
 
 <table>
   <tr>
@@ -52,13 +65,13 @@ Wallace
   <tr>
     <td style="background-color: #FFEBEE;">iOS</td>
     <td style="background-color: #FFEBEE;">
-      <img src="../assets/images/qr_code_example.png" alt="iOS QR Code" width="200" height="200">
+      <img src="assets/images/qr_code_example.png" alt="iOS QR Code" width="200" height="200">
     </td>
   </tr>
   <tr>
     <td style="background-color: #E3F2FD;">Android</td>
     <td style="background-color: #E3F2FD;">
-      <img src="../assets/images//qr_code_example.png" alt="Android QR Code" width="200" height="200">
+      <img src="assets/images//qr_code_example.png" alt="Android QR Code" width="200" height="200">
     </td>
   </tr>
 </table>
@@ -76,7 +89,7 @@ Wallace
 1. 您將看到如下圖所示的登入頁面：
 
 <div class="gray-border">
-  <img src="/assets/images//login_page.png" style="display: block; max-width: 100%;">
+  <img src="assets/images/login_page.png" style="display: block; max-width: 100%;">
 </div>
 
 ## 步驟 3：輸入使用者 ID 和密碼
@@ -96,8 +109,7 @@ Wallace
 - **確保輸入正確**：請確保您輸入的使用者 ID 和密碼正確無誤。
 - **忘記密碼**：如果您忘記了密碼，請聯繫系統管理員或使用應用程式中的「忘記密碼」功能來重設密碼。
 
-這些步驟將幫助您順利登入 First TMS 應用程式。如有任何問題，請隨時聯繫我們的客服團隊。
-
+***
 
 # First TMS 主頁操作步驟
 
@@ -114,15 +126,18 @@ Wallace
 2. 更新完成後，系統會顯示更新結果。
    - 若更新成功，會顯示「資料已更新！」提示。
 
-     ![資料更新成功](assets/images/home_page/refresh.png)
+   ![資料更新成功](assets/images/home_page/refresh.png)
 
    - 若更新失敗，會顯示「資料更新失敗！」提示。
 
-     ![資料更新失敗](assets/images/home_page/refresh-1.png)
+   ![資料更新失敗](assets/images/home_page/refresh-1.png)
 
 ## 步驟 3：查看運輸單
 1. 主頁面會顯示您的運輸單列表，包括每張運輸單的詳細信息和狀態。
-   - 例如，顯示運輸單號 `XCSHKLFSA240240400299` 和時間段 `9AM-12PM`。
+   - 例如:
+     1. 顯示運輸單號 `XCSHKLFSA240240400299` 
+     2. 車號`XC9999`
+     3. 時間段 `9AM-12PM`
 
    ![運輸單列表](assets/images/home_page/default.png)
 
@@ -135,7 +150,7 @@ Wallace
 1. 若有多張運輸單，您可以左右滑動查看更多運輸單。
    - 如圖所示，左滑可查看下一張運輸單。
 
-     ![左滑查看更多](assets/images/home_page/tips.png)
+   ![左滑查看更多](assets/images/home_page/tips.png)
 
 ## 步驟 6：處理提示信息
 1. 如果查無運輸單，系統會提示「查無運輸單」。請按提示重新登入。
@@ -146,8 +161,7 @@ Wallace
 - **定時更新**：請定期更新您的運輸單信息，以確保資料的準確性。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保運輸過程順利。
 
-這些步驟將幫助您順利使用 First TMS 主頁功能。如有任何問題，請隨時聯繫我們的客服團隊。
-
+***
 
 # First TMS 新增配送單操作步驟
 
@@ -159,53 +173,53 @@ Wallace
    - 您可以手動輸入單號或點擊相機圖標掃描條碼。
    - 例如，輸入單號 `P240401417`。
 
-   ![輸入配送單號](/assets/images/add_order/filled.png)
+   ![輸入配送單號](assets/images/add_order/filled.png)
 
 ## 步驟 3：查詢配送單
 1. 點擊「查詢」按鈕，系統將開始查詢該配送單號的詳細信息。
 
-   ![查詢配送單](/assets/images/add_order/filled.png)
+   ![查詢配送單](assets/images/add_order/filled.png)
 
 ## 步驟 4：查看掃描記錄
 1. 查詢成功後，系統將顯示該配送單號的詳細信息和掃描記錄。
    - 掃描記錄包括已掃描和待掃描的數量。
    - 例如，已掃描1件，待掃描19件。
 
-   ![掃描記錄](/assets/images/add_order/added1.png)
+   ![掃描記錄](assets/images/add_order/added1.png)
 
 ## 步驟 5：確認配送單信息
 1. 驗證配送單詳細信息，包括地址和聯絡人信息。
    - 確認所有信息無誤後，點擊「開始派送」按鈕。
 
-   ![開始派送](/assets/images/add_order/added2.png)
+   ![開始派送](assets/images/add_order/added2.png)
 
 ## 步驟 6：處理提示信息
 1. 如果存在未匹配的訂單，系統會彈出提示信息，請確認是否繼續派送。
    - 點擊「確定」繼續派送或「取消」返回。
 
-   ![未匹配訂單提示](/assets/images/add_order/msg1.png)
+   ![未匹配訂單提示](assets/images/add_order/msg1.png)
 
 2. 如果所有訂單已匹配成功，系統會提示「訂單已全數匹配成功！」。
    - 點擊「確定」完成操作。
 
-   ![匹配成功提示](/assets/images/add_order/msg2.png)
+   ![匹配成功提示](assets/images/add_order/msg2.png)
 
 3. 如果查無此張配送單，系統會提示「查無此張配送單。」。
    - 點擊「確定」關閉提示。
 
-   ![查無配送單提示](/assets/images/add_order/msg3.png)
+   ![查無配送單提示](assets/images/add_order/msg3.png)
 
 4. 如果配送單已存在，系統會提示「重複新增，配送單已存在！」。
    - 點擊「確定」關閉提示。
 
-   ![配送單已存在提示](/assets/images/add_order/msg4.png)
+   ![配送單已存在提示](assets/images/add_order/msg4.png)
 
 ## 注意事項
 - **確認輸入正確**：請確保輸入的配送單號無誤。
 - **掃描條碼**：如果手動輸入不便，可以使用相機掃描條碼來自動填充配送單號。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保配送過程順利。
 
-這些步驟將幫助您順利新增配送單並進行配送操作。如有任何問題，請隨時聯繫我們的客服團隊。
+***
 
 # First TMS 配送單操作步驟
 
@@ -229,11 +243,11 @@ Wallace
    - 您可以查看「未完成」和「進行中」的配送單。
    - 例如，顯示未完成的配送單：
 
-     ![未完成的配送單](assets/images/order_page/undone.png)
+   ![未完成的配送單](assets/images/order_page/undone.png)
 
    - 例如，顯示進行中的配送單：
 
-     ![進行中的配送單](assets/images/order_page/in_progress.png)
+   ![進行中的配送單](assets/images/order_page/in_progress.png)
 
 2. 若尚無配送單記錄，系統會顯示「尚無記錄」。
 
@@ -248,8 +262,7 @@ Wallace
 - **掃描條碼**：如果手動輸入不便，可以使用相機掃描條碼來自動填充配送單號。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保配送過程順利。
 
-這些步驟將幫助您順利使用 First TMS 配送單功能。如有任何問題，請隨時聯繫我們的客服團隊。
-
+***
 
 # First TMS 訂單訊息操作步驟
 
@@ -285,11 +298,11 @@ Wallace
 
    - 選擇相簿上傳：
 
-     ![相簿上傳](assets/images/info_page/upload_image_albums.png)
+   ![相簿上傳](assets/images/info_page/upload_image_albums.png)
 
    - 選擇相機上傳：
 
-     ![相機上傳](assets/images/info_page/upload_image_camera.png)
+   ![相機上傳](assets/images/info_page/upload_image_camera.png)
 
 2. 上傳成功後，圖片將顯示在訂單資訊下方。
 
@@ -333,7 +346,7 @@ Wallace
 
    - 如選擇「其他原因」，請輸入詳細原因。
 
-     ![輸入其他原因](assets/images/info_page/msg_follow_up_other.png)
+   ![輸入其他原因](assets/images/info_page/msg_follow_up_other.png)
 
 3. 跟進完成後，系統會顯示「跟進訂單」訊息。
 
@@ -350,10 +363,9 @@ Wallace
 - **上傳圖片**：確保上傳的圖片清晰可辨識，方便後續核對和記錄。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保訂單處理過程順利。
 
-這些步驟將幫助您順利使用 First TMS 訂單訊息功能。如有任何問題，請隨時聯繫我們的客服團隊。
+***
 
-
-# First TMS 訂單資訊操作步驟
+# First TMS 訂單紀錄操作步驟
 
 ## 步驟 1：進入訂單紀錄頁面
 1. 在主頁面上，點擊底部導航欄的「訂單紀錄」圖標以進入訂單紀錄頁面。
@@ -364,7 +376,7 @@ Wallace
 
    ![輸入配送單號](assets/images/order_history/uploading.png)
 
-## 步驟 3：查詢訂單
+## 步驟 3：查詢訂單紀錄
 1. 點擊「查詢」按鈕，系統將開始查詢該配送單號的詳細信息。
 
    ![查詢訂單](assets/images/order_history/uploading.png)
@@ -377,7 +389,7 @@ Wallace
 
 2. 若尚無訂單記錄，系統會顯示「尚無記錄」。
 
-   ![尚無記錄](assets/images/order_history/default.png)
+   ![尚無記錄](assets/images/order_history/no_order.png)
 
 ## 步驟 5：上傳訂單資訊
 1. 點擊「上傳訂單資訊」按鈕，可以將訂單相關的圖片或文件上傳至系統。
@@ -412,7 +424,7 @@ Wallace
 - **上傳圖片**：確保上傳的圖片清晰可辨識，方便後續核對和記錄。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保訂單處理過程順利。
 
-這些步驟將幫助您順利使用 First TMS 訂單資訊功能。如有任何問題，請隨時聯繫我們的客服團隊
+***
 
 # First TMS 設定頁面操作步驟
 
@@ -430,8 +442,8 @@ Wallace
 3. 點擊「確定」以清除暫存，完成後會顯示「清除暫存成功！」的訊息。
 
    ![清除暫存](assets/images/setting_page/clear_storage.png)
-   ![確認清除暫存](assets/images/setting_page/msg4.png)
-   ![清除暫存成功](assets/images/setting_page/msg5.png)
+   ![確認清除暫存](assets/images/setting_page/msg3.png)
+   ![清除暫存成功](assets/images/setting_page/msg4.png)
 
 ## 步驟 4：切換語言
 1. 點擊「語言」選項，可以切換應用程式的語言。
@@ -448,10 +460,10 @@ Wallace
 3. 點擊「確定」以登出帳號，完成後會返回登錄頁面。
 
    ![登出帳號](assets/images/setting_page/account.png)
-   ![確認登出](assets/images/setting_page/msg3.png)
+   ![確認登出](assets/images/setting_page/msg5.png)
 
 ## 注意事項
 - **確認操作**：每次進行清除暫存、切換語言或登出帳號操作時，系統都會彈出確認訊息，請確認無誤後再進行操作。
 - **語言設定**：切換語言後，應用程式的所有界面將會切換為所選語言，請選擇您熟悉的語言以便操作。
 
-這些步驟將幫助您順利使用 First TMS 設定頁面功能。如有任何問題，請隨時聯繫我們的客服團隊。
+***
