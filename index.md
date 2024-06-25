@@ -13,7 +13,6 @@ css: style.css
 - [First TMS 操作手冊](#first-tms-操作手冊)
   - [簡介](#簡介)
   - [安裝指南](#安裝指南)
-- [主要應用模塊](#主要應用模塊)
 - [First TMS 使用步驟](#first-tms-使用步驟)
   - [步驟 1：開啟應用程式](#步驟-1開啟應用程式)
   - [步驟 2：登入](#步驟-2登入)
@@ -59,6 +58,8 @@ css: style.css
   - [步驟 3：清除暫存](#步驟-3清除暫存)
   - [步驟 4：登出帳號](#步驟-4登出帳號)
 
+***
+
 # First TMS 操作手冊
 
 <div>
@@ -83,14 +84,12 @@ css: style.css
    4. [First TMS 配送單操作步驟](#first-tms-配送單操作步驟)
    5. [First TMS 配送單訂單資訊操作步驟](#first-tms-配送單訂單資訊操作步驟)
    6. [First TMS 訂單紀錄操作步驟](#first-tms-訂單紀錄操作步驟)
-   7. [First TMS 設定頁面操作步驟](#first-tms-設定頁面操作步驟) -->
+   7. [First TMS 設定頁面操作步驟](#first-tms-設定頁面操作步驟) 
 
 
 ***
 
-
-
-
+-->
 
 ## 簡介
 
@@ -127,9 +126,6 @@ css: style.css
     </td>
   </tr>
 </table>
-
-
-# 主要應用模塊
 
 # First TMS 使用步驟
 
